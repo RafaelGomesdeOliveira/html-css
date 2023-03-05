@@ -1,0 +1,43 @@
+body {
+    background-color: rgb(225, 193, 255);
+    padding: 0px;
+    margin: 0px;
+}
+    /* 
+        em HTML é id = em CSS é #(somente um com o mesmo nome)
+        em HTML é class = em CSS é .(varios)
+    */
+
+
+
+h1 {
+    color:  rgb(95, 59, 129);
+
+}
+
+#titulo {
+    color: rgb(35, 0, 68);
+    background-color: blueviolet;
+    text-align: center;
+    font-weight: bold;
+}
+
+h2 {
+    color: rgb(154, 100, 204);
+
+}
+
+.basico {
+    color: rgb(68, 145, 68);
+
+}
+
+.inter {
+    color: rgb(145, 144, 68);
+
+}
+
+.avan {
+    color: rgb(145, 68, 68);
+
+}
