@@ -7,7 +7,7 @@
     <title>Document</title>
     <style>
         main {
-            width: 30%;
+            max-width: 800px;
             background-color: white;
             margin: auto;
             padding: 10px;
@@ -20,12 +20,25 @@
 
         }
 
+
         body {
-            background-color: black;
-            background-image: url('info/wallpaper003.jpg');
-            background-repeat: repeat-y;
+            /* background-color: black;
+            background-image: url('info/wallpaper002.jpg');
+            background-repeat: no-repeat;
             background-size: cover;
+            background-attachment: fixed; */
             height: 100vh;
+
+            background: black url('info/wallpaper002.jpg') no-repeat fixed;
+            background-size: cover;
+            
+            /* Shorthand: 
+
+                color > image > position > repeat > [size] > attachment 
+            
+            */
+
+
         }
 
 
