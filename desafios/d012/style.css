@@ -67,7 +67,7 @@ a:hover {
 }
 
 .img-fundo {
-    box-shadow: inset 5px 5px 13px 0px rgba(0, 0, 0, 0.350);
+    box-shadow: inset 5px 5px 13px 0px rgba(0, 0, 0, 0.370);
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.370);
     background-size: cover;
     color: white;
