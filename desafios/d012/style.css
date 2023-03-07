@@ -88,7 +88,7 @@ section#v4 {
 
 .img-fundo > p {
     background-image: linear-gradient( to right, rgba(0, 0, 0, 0.303), transparent);
-    max-width: 400px;
+    max-width: 450px;
     padding-left: 10px;
     border-radius: 5px;
 } 
