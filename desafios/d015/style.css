@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body, html {
+    width: 100vw;
+    height: 100vh;
+    background-color: blue;
+}
+
+main {
+    height: 100vh;
+    background: url('imagens/fundo-madeira.jpg') no-repeat center center fixed;
+    background-size: cover;
+
+}
+
+
+section#telefone {
+    background: url('imagens/frame-iphone-1.png') no-repeat fixed;
+    width: 250px;
+
+    height: 504px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+
+
+}
