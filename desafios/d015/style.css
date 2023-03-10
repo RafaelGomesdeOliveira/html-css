@@ -18,7 +18,6 @@ main {
 
 }
 
-
 section#telefone {
     background: url('imagens/frame-iphone-1.png') no-repeat fixed;
     width: 250px;
@@ -30,4 +29,30 @@ section#telefone {
     left: 50%;
 
 
+}
+
+    iframe#tela {
+        position: relative;
+        top: 64.5px;
+        left: 17.5px;
+        width: 214px;
+        height: 377.5px;
+
+
+    }
+
+section#redes-sociais {
+    position: absolute;
+    top: 0px;
+    left: 96vw;
+    height: 100vh;
+    width: 4vw;
+}
+
+
+.imagem  img {
+    margin: 7px 0px;
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.439);
+    width: 3.6vw;
+    border-radius: 100%;
 }
