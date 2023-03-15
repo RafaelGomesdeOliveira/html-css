@@ -1,0 +1,133 @@
+@charset "UTF-8";
+
+@media print {
+    main h1 {
+        background-color: white;
+        color: black;
+        text-shadow: none;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    
+    main {
+        border: 1px solid black;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    main::after {
+        content: 'Essa impressão foi feita através do site feito por Rafael Gomes';
+        text-decoration: underline;
+
+    }
+
+
+    img#cll {
+        display: none;
+    }
+
+    img#tablet {
+        display: none;
+    }
+
+    img#impre {
+        display: block;
+    }
+
+    img#pc {
+        display: none;
+    }
+
+    img#tv {
+        display: none;
+    }
+
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+
+    body {
+        background-image: url('../imagens/back-tablet.jpg');
+
+    }
+
+
+    img#cll {
+        display: none;
+    }
+
+    img#tablet {
+        display: block;
+    }
+
+    img#impre {
+        display: none;
+    }
+
+    img#pc {
+        display: none;
+    }
+
+    img#tv {
+        display: none;
+    }
+
+
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    body {
+        background-image: url('../imagens/back-pc.jpg');
+
+    }
+
+
+    img#cll {
+        display: none;
+    }
+
+    img#tablet {
+        display: none;
+    }
+
+    img#impre {
+        display: none;
+    }
+
+    img#pc {
+        display: block;
+    }
+
+    img#tv {
+        display: none;
+    }
+
+}
+
+@media screen and (min-width: 1200px) {
+    body {
+        background-image: url('../imagens/back-tv.jpg');
+
+    }
+
+
+    img#cll {
+        display: none;
+    }
+
+    img#tablet {
+        display: none;
+    }
+
+    img#impre {
+        display: none;
+    }
+
+    img#pc {
+        display: none;
+    }
+
+    img#tv {
+        display: block;
+    }
+
+}
