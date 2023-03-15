@@ -8,6 +8,23 @@
 
 }
 
+main {
+    margin: 5px;
+
+}
+
+article > h2 {
+    margin-bottom: 10px;
+
+}
+
+article {
+    background-color: lightgray;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: justify;
+}
+
 header {
     background-color: lightgray;
 
@@ -21,9 +38,11 @@ header > h1 {
 header li {
     list-style-type: none;
     background-color: rgb(66, 66, 66);
-    display: inline-block;
+    display: block;
     color: white;
     padding: 10px;
+    text-align: center;
+    margin-bottom: 2px;
 }
 
 header ul {
@@ -36,5 +55,15 @@ article {
     max-width: 500px;
     margin: auto;
 
+
+}
+
+header > menu > ul > li > a {
+    color: white;
+    text-decoration: none;
+}
+
+header > menu > ul > li:hover {
+    background-color: rgb(151, 151, 151);
 
 }
